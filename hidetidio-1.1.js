@@ -21,7 +21,7 @@ function hideTdo() {
     }
     var iframe_content = document.querySelector('#tidio-chat iframe').contentDocument
     iframe_content.querySelector('a[aria-label="Powered by Tidio."]').remove();
-    // iframe_content.querySelector('button[class="widgetLabel moveFromRightLabel-enter-done"]').remove();
+    iframe_content.querySelector('button[class="widgetLabel moveFromRightLabel-enter-done"]')[0].remove();
     return true;
   }
 }
