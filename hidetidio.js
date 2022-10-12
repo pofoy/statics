@@ -19,10 +19,9 @@ function hideTdo() {
       timer2 = setTimeout(hideTdo, 1);
       return;
     }
-    document.querySelector('#tidio-chat iframe')
-      .contentDocument
-      .querySelector('a[aria-label="Powered by Tidio."]')
-      .remove();
+    var iframe_content = document.querySelector('#tidio-chat iframe').contentDocument
+    iframe_content.querySelector('a[aria-label="Powered by Tidio."]').remove();
+    iframe_content.querySelector('button[class="widgetLabel moveFromRightLabel-enter-done"]').remove();
     return true;
   }
 }
@@ -30,6 +29,3 @@ function hideTdo() {
 hideTdo();
 
 setInterval(hideTdo, 10);
-
-
-// aria-label="Powered by Tidio."
