@@ -23,7 +23,7 @@ function hideTdo() {
         let img_style="width: 50px; height:24px"
         let site_link="https://www.baidu.com"
         let stie_name="牛B"
-        let img_logo='data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzMyJyBoZWlnaHQ9JzMyJyB2aWV3Qm94PScwIDAgMzIgMzInPjx0aXRsZT5ob21lPC90aXRsZT48cGF0aCBkPSdNMzIgMTguNDUxbC0xNi0xMi40Mi0xNiAxMi40MnYtNS4wNjRsMTYtMTIuNDIgMTYgMTIuNDJ6TTI4IDE4djEyaC04di04aC04djhoLTh2LTEybDEyLTl6Jz48L3BhdGg+PC9zdmc+'
+        let img_logo='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAGCAYAAAGurG6FAAAAvUlEQVR4nGNgIAhycvP/p6Sm/wfRIIyhYOLEaRYQlTkFHZ+3yYBV1NU1xIPozKyc/3BjQBimgGTw/USY47JlK+pRrER3KLrpa9du1iHahubm1pZFixblwdxcVVV7DsPXOTl5bciasPkHWaympnZeUUnpAxA7OycPblh8YjL2cACFIiELKAJZuQVhKBZslV4AoguKii+BHZCbfxpEFxYVXyksKr04ceLk8rz8gksweRCYOHFKLExPQWHxRRANAE6jaMcgA0eTAAAAAElFTkSuQmCC'
 
         let element=`<a style="${a_sytle}" href="${site_link}" target="_blank"><span style="${span_style}">${stie_name}</span><img style="${img_style}" src="${img_logo}" width="32" height="32"></a>`
 
