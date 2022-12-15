@@ -22,7 +22,7 @@ function hideTdo() {
         let span_style="margin-right: 8px"
         let img_style="width: 50px; height:24px"
         let site_link="https://www.baidu.com"
-        let stie_name="牛B"
+        let stie_name="Top Chinese Manufacturers"
         let img_logo='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAGCAYAAAGurG6FAAAAvUlEQVR4nGNgIAhycvP/p6Sm/wfRIIyhYOLEaRYQlTkFHZ+3yYBV1NU1xIPozKyc/3BjQBimgGTw/USY47JlK+pRrER3KLrpa9du1iHahubm1pZFixblwdxcVVV7DsPXOTl5bciasPkHWaympnZeUUnpAxA7OycPblh8YjL2cACFIiELKAJZuQVhKBZslV4AoguKii+BHZCbfxpEFxYVXyksKr04ceLk8rz8gksweRCYOHFKLExPQWHxRRANAE6jaMcgA0eTAAAAAElFTkSuQmCC'
 
         let element=`<a style="${a_sytle}" href="${site_link}" target="_blank"><span style="${span_style}">${stie_name}</span><img style="${img_style}" src="${img_logo}" width="32" height="32"></a>`
